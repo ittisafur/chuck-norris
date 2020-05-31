@@ -1,0 +1,26 @@
+{
+    "name": "ittisafur/chuck-norris",
+    "description": "A Chuck Norris Jokes Generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ittisafur",
+            "email": "ittisafur@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Ittisafur\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Ittisafur\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
